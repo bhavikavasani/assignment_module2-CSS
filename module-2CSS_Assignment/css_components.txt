@@ -1,0 +1,5 @@
+Q-4. The components of css style are:
+
+1) Selector: class name, id name or element name that is target
+2) Attribute: name of the attribute you want to style for example border, color,background, position etc.
+3) Value of Property: value that will be assigned to attribute.

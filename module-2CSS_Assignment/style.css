@@ -1,0 +1,93 @@
+/* css for Opacity */
+div{
+    background-color:#4CAF50;
+    padding: 10px;
+    
+}
+.opacity{
+    background-color: aquamarine;
+    opacity: 0.5;
+    font-size: 35px;
+}
+div.first
+{
+    opacity: 0.1;
+}
+div.second
+{
+    opacity: 0.3;
+}
+div.third
+{
+    opacity: 0.6;
+}
+
+/* ############# Css For Background Color #############  */
+
+table{
+   
+    width:50%;
+    padding: 15px;
+    background-color: #33475b;
+    border-collapse: collapse;
+    color:white;
+    text-align: center;
+}
+table th{
+    background-color:cadetblue;
+    color:black;
+    padding: 10px;
+}
+table td{
+    padding: 10px;
+}
+
+/* Css For Image Repetition Property */
+div.note
+{
+    background-color: aqua;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+div.answer
+{
+    background-color: aliceblue;
+    font-size: 18px;
+}
+.bg
+{
+ background-image: url(images/flower.png); 
+ background-repeat: no-repeat;
+}
+/*  CSS For Background Position  */
+.bg_position
+{
+   background-image: url(images/small_image.png); 
+   background-repeat: no-repeat;
+   background-position: center top;
+}
+/* Css For External CSS file Demo */
+.externalcss
+{
+    background-color: yellow;
+    padding: 20px;
+    
+}
+.externalcss_paragraph
+{
+    background-color: red;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    padding: 15px;
+}
+.highlights
+{
+    background-color: black; 
+    color: white; 
+    font-size: 25px;
+    margin-left: 30%;
+    padding: 15px;
+}

@@ -1,0 +1,7 @@
+Q-3. What is the difference between CSS2 and CSS3?
+
+The main difference between CSS2 and CSS3 is that CSS3 is divided into different sections which are also known as modules. 
+Unlike CSS2, CSS3 modules are supported by many browsers.
+
+Apart from that, CSS3 contains new General Sibling Combinators 
+which is responsible for matching the sibling elements with the given elements.

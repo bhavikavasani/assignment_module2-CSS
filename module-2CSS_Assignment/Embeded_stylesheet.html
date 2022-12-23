@@ -1,0 +1,41 @@
+<!-- Q-14 What is embedded style sheets?
+
+Ans.
+    -Also known as internal or embedded stylesheet
+    -This can be used when a single HTML document must be styled uniquely. 
+    -CSS files can be embedded internally by declaring them in <style> tag. -->
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>internal or embeded stylesheet</title>
+            <style>
+                article {
+                   font-size: 1.3em;
+                   font-family: cursive;
+                }
+                div {
+                   display: inline-flex;
+                   /* flex-direction: row; */
+                   margin-left: 20px;
+                   width: 30px;
+                   height: 30px;
+                   background-color: lightgreen;
+                   box-shadow: 8px 5px 0 2px lightcoral;
+                }
+            </style>
+        </head>
+
+        <body>
+            <article>Demo text</article>
+            <div></div>
+            <div></div>                  
+        </body>
+        </html>
+    <!-- Syntax:-
+        <style>
+            /*declarations*/
+        </style> 
+    -->
